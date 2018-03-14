@@ -2,7 +2,7 @@
 
 Yet another Reddit-Twitter Bot.
 
-You can see it working at [@retwyBot](https://twitter.com/retwyBot) and running thanks to [pythonanywhere.com](https://www.pythonanywhere.com).
+You can see it working at [@UselesstBot](https://twitter.com/UselesstBot) and running thanks to [pythonanywhere.com](https://www.pythonanywhere.com).
 
 ## Usage
 
