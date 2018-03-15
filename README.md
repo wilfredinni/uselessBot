@@ -18,6 +18,10 @@ You can see it working at [@UselesstBot](https://twitter.com/UselesstBot) and ru
     ```python
     search('learnpython')
     ```
+Console Output:
+
+![alt text](https://serving.photos.photobox.com/550350036c86424aafe74c1e015965d236fb2948d1f94658ff7595c55c4022ca6359ce0b.jpg)
+
 
 ## TODO
 
