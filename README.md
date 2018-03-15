@@ -1,9 +1,6 @@
-# uselessBot
+# uselessBot [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7835d124bba745a99b83af4527afa480)](https://www.codacy.com/app/carlos.w.montecinos/retwiBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wilfredinni/retwiBot&amp;utm_campaign=Badge_Grade)
 
 A useless robot, full of bugs, that goes where you want.
-
-.. image:: https://api.codacy.com/project/badge/Grade/7835d124bba745a99b83af4527afa480
-    :target: https://www.codacy.com/app/carlos.w.montecinos/retwiBot?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wilfredinni/retwiBot&amp;utm_campaign=Badge_Grade
 
 ## How it works
 
