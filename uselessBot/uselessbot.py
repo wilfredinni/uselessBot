@@ -40,7 +40,7 @@ def search(subreddit_name):
 
     # Execute when there are no new posts:
     time.sleep(60)  # sleep for 1 minute
-    get_mentions.search(subreddit_name)
+    get_mentions.main(subreddit_name)
 
 
 def load_json(file):

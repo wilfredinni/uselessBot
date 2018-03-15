@@ -28,8 +28,6 @@ def main(subreddit):
     filtered_user = regex_user.findall(mentions)
     filtered_mention = regex_metion.findall(mentions)
 
-    # print(mentions)
-
     # ---------------------- log ----------------------
     print(bg(blue('Checking for new subreddit.')))
     # ---------------------- log ----------------------
