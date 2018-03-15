@@ -1,18 +1,26 @@
 # uselessBot
 
-A useless robot that goes where you want
+A useless robot, full of bugs, that goes where you want.
 
-## How does it work
+## How it works
 
-In Twitter, just use @
+just tweet `@UselessBot` with a `subreddit`. The bot will post the last 10 entries on twitter and start searching for new ones every 2 minutes until someone changes the subreddit... so useless =(
+
+    @UselessBot gifs
+
+You can see it working at [@UselesstBot](https://twitter.com/UselesstBot) and running thanks to [pythonanywhere.com](https://www.pythonanywhere.com).
+
+## Usage
 
 - Fill the credential.json with your API keys for Reddit and Twitter.
-- Open or Import retwibot.py and use search() with a subreddit:
+- Open or Import retwibot.py and use `search('subreddit')`:
 
     ```python
     search('learnpython')
     ```
 
-The script will search every 60 seconds for new entries in the subreddit and every time it finds a new one, it will post it on Twitter.
+## TODO
 
-You can see it working at [@retwyBot](https://twitter.com/retwyBot) and running thanks to [pythonanywhere.com](https://www.pythonanywhere.com).
+- Change all the `print()` for logs.
+- Review the code.
+- Unittest.

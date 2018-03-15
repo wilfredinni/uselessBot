@@ -47,7 +47,7 @@ def main(subreddit):
             # post the changed subreddit
             uselessbot.new_post(filtered_mention[0], twitter_user, False)
             # search the new subreddit for new posts
-            uselessbot.main(filtered_mention[0])
+            uselessbot.search(filtered_mention[0])
         else:
             # ---------------------- log ----------------------
             print(bg(blue(
@@ -55,10 +55,10 @@ def main(subreddit):
             # ---------------------- log ----------------------
 
             # if no new subreddit, continue search
-            uselessbot.main(subreddit)
+            uselessbot.search(subreddit)
     except Exception:
         print(uselessbot.wrong())
-        uselessbot.main('learnpython')
+        uselessbot.search('learnpython')
 
 
 if __name__ == '__main__':

@@ -14,7 +14,7 @@ yellow = hue.yellow
 red = hue.red
 
 
-def main(subreddit_name):
+def search(subreddit_name):
     """
     search for new posts on a subreddit and if they are not saved,
     save them and post on twitter. If it is already saved, wait 60
@@ -36,11 +36,11 @@ def main(subreddit_name):
         # ---------------------- log ----------------------
     except Exception:
         print(wrong())
-        main('learnpython')
+        search('learnpython')
 
     # Execute when there are no new posts:
     time.sleep(60)  # sleep for 1 minute
-    get_mentions.main(subreddit_name)
+    get_mentions.search(subreddit_name)
 
 
 def load_json(file):
@@ -76,7 +76,7 @@ def new_post(title, url, post=True):
             twitter.PostUpdate(title + ' ' + url)  # post it
         except Exception:
             print(wrong())
-            main('learnpython')
+            search('learnpython')
 
         # ---------------------- log ----------------------
         print(bg(green('New post! {}'.format(title))))
@@ -92,7 +92,7 @@ def new_post(title, url, post=True):
             # '{}: {} changed the subreddit to #{}'.format(time, url, title))
         except Exception:
             print(wrong())
-            main('learnpython')
+            search('learnpython')
 
         # ---------------------- log ----------------------
         print(bg(yellow('{} changed the subreddit to #{}'.format(url, title))))
@@ -125,4 +125,4 @@ def wrong():
 
 
 if __name__ == '__main__':
-    main('learnpython')
+    search('learnpython')
