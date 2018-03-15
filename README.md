@@ -1,8 +1,10 @@
-# retwiBot
+# uselessBot
 
-Yet another Reddit-Twitter Bot.
+A useless robot that goes where you want
 
-## Usage
+## How does it work
+
+In Twitter, just use @
 
 - Fill the credential.json with your API keys for Reddit and Twitter.
 - Open or Import retwibot.py and use search() with a subreddit:
