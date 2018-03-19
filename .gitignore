@@ -565,3 +565,7 @@ paket-files/
 
 
 # End of https://www.gitignore.io/api/osx,linux,python,windows,pycharm,sublimetext,visualstudio,visualstudiocode
+uselessBot/uselessbot.py
+uselessBot/old_version/get_mentions.py
+uselessBot/old_version/uselessbot.py
+uselessBot/old_version/uselessbot.py
