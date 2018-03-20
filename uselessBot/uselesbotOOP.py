@@ -13,7 +13,6 @@ class bot:
         self.subreddit_name = subreddit_name
         self.file_credentials = file_credentials
         self.json_db = json_db
-        # store the reddit and twitter credentials (try to make it one time)
 
     def __repr__(self):
         return "bot('{}', '{}', '{}')".format(
@@ -51,7 +50,7 @@ class bot:
     @classmethod
     def set_json_file(cls, json_file):
         """
-        Let me work with the class method instead of the instance.
+        It let me work with the class method instead of the instance.
         """
         cls.json_file_to_open = json_file
 
@@ -64,7 +63,7 @@ class search(bot):
 
     def search_reddit(self, saved_posts):
         """
-        Search for newest 10 post on a subreddit
+        Search for newest 10 post on a subreddit.
         """
         subreddit = self.reddit_credentials.subreddit(self.subreddit_name)
 
